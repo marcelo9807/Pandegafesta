@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Chewy';
+    src: url(fontes/Chewy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Mastigavel';
+    src: url(fontes/Quicksand-VariableFont_wght.ttf);
+}
+
+:root{
+    --cor01:#FFFACD;
+    --cor02:#FF6347;
+    --corBotao:	#AED581;
+    --corDesta: #FF6347;
+    --cortexto:#222;
+    --fonte-padrao:'Times New Roman', Times, serif;
+    --fonte-titulo:'Chewy';
+    --fonte-principal:'Mastigavel';
+
+
+}
+
+*{
+    margin: auto;
+    padding: auto;
+}
+div.fotos img{
+    width: 300px;
+    max-width: 90%;
+    border-radius: 10px;
+    height: 400px;
+    min-width:300;
+    
+}
+body{
+    background-color: var(--cor01);
+    font-family: var(--fonte-principal);
+    text-align: center;
+    color: var(--cortexto);
+
+
+}
+header{
+    background-color: #ff634769;
+    color: whitesmoke;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.658);
+
+
+
+}
+header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 5em;
+    color: #222;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
+
+}
+header p{
+    font-family: var(--fonte-02);
+    font-size: 2em;
+    color: var(--cortexto);
+}
+main{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.658);
+ 
+
+    
+}
+li::before{
+    content: "";
+
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+
+
+}
+ul img{
+    margin: 20px 0px 20px 0px;
+}
+
+.sobre{
+    padding: auto;
+    
+}
+.sobre > h2{
+    margin: 20px;
+    font-weight: ;
+}
+
+main h2{
+    font-family: var(--fonte-principal);
+}
+.trabalho{
+    line-height: 2em;
+}
+.trabalho h2{
+    color: var(--corDesta);
+    margin: 20px 0px 20px 0px;
+}
+.contato a{
+    background-color: var(--corBotao);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+.contato{
+    line-height: 2em;
+}
+div.fundotexto > p{
+    color: black;
+    font-weight: 500;
+    background-image: linear-gradient(to left, white, #ff634769, white);
+    margin: auto;
+    margin-bottom: 10px;
+}
+.contato a:hover{
+    font-weight: bold;
+}
+.contato img{
+
+    margin: 10px 0px -16px 10px;
+    width: 50px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: 1px;
+    color: black
+
+    
+}
+
+
